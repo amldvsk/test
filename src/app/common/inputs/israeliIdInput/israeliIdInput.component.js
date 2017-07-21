@@ -20,7 +20,7 @@ export const IsraeliIdInputComponent =  {
   
   bindings : {
     placeholder : "@",
-    class : "@",
+    inputClass : "@",
     id : "@",
     label : "@?",
     labelClass : "@?",

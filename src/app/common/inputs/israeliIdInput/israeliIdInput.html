@@ -8,7 +8,7 @@
 <input 
     id="{{$ctrl.id}}"
     placeholder="{{$ctrl.placeholder}}" 
-    ng-class="[$ctrl.class, $ctrl.error ? $ctrl.errorClass : '']"
+    ng-class="[$ctrl.inputClass, $ctrl.error ? $ctrl.errorClass : '']"
     ng-model="$ctrl.ngModel"
     ng-required="$ctrl.required"
     name="{{$ctrl.name}}"    
