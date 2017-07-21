@@ -3,4 +3,4 @@ import { israeliIdInput } from './common/inputs/israeliIdInput/israeliIdInput.mo
 import { AppComponent } from '../app/containers/app/app.component';
 
 angular.module('common-components', ['israeliIdInput'])  
-  .component('app', AppComponent)
+  .component('example', AppComponent)
