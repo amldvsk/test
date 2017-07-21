@@ -1,7 +1,6 @@
 class UtilService {
     constructor() {
       'ngInject';
-      console.log('asdasd')
     }
 
     validateId(id) {

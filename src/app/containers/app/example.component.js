@@ -1,7 +1,6 @@
-class AppController {
+class exampleController {
   constructor ($timeout) {
     'ngInject';
-    console.log('AppController', this)
     this.$timeout = $timeout;
   }
 
@@ -20,9 +19,9 @@ class AppController {
 }
 
 
-export const AppComponent =  {
-  controller : AppController,  
-  templateUrl: 'app/containers/app/app.html',  
+export const exampleComponent =  {
+  controller : exampleController,  
+  templateUrl: 'app/containers/example/example.html',  
   bindings : {
     
   },
