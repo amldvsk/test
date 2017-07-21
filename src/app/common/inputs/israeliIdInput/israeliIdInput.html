@@ -1,0 +1,16 @@
+<label 
+    ng-if="$ctrl.label"
+    ng-class="[$ctrl.labelClass, $ctrl.error ? $ctrl.errorClass : '']"
+    >
+    {{$ctrl.label}}
+</label>
+
+<input 
+    id="{{$ctrl.id}}"
+    placeholder="{{$ctrl.placeholder}}" 
+    ng-class="[$ctrl.class, $ctrl.error ? $ctrl.errorClass : '']"
+    ng-model="$ctrl.ngModel"
+    ng-required="$ctrl.required"
+    name="{{$ctrl.name}}"    
+/>
+

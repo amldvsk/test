@@ -1,0 +1,21 @@
+
+
+
+<form  name="commonForm" ng-submit="$ctrl.submit()" novalidate>
+    <israeli-id-input 
+        placeholder="ת.ז" 
+        label="תעודת זהות" 
+        label-class="label-class" 
+        class="input-class"
+        error-class="error"
+        ng-model="$ctrl.id"
+        required="true"
+        name="id"
+        validate = "$ctrl.validate"
+        form="commonForm"
+    ></israeli-id-input>
+    <div ng-if="commonForm.id.$invalid" >
+        טעות
+    </div>
+    <button type="submit">submit</button>
+</form>
